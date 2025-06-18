@@ -69,7 +69,7 @@
 import TypeWriter from '../components/TypeWriter.vue'
 import { useTheme } from 'vuetify'
 import { ref, onMounted, computed, onUnmounted  } from 'vue'
-
+import AnishCV from '../assets/AnishOCV.pdf'
 
 const theme = useTheme()
 const isDark = computed(() => theme.global.current.value.dark)
@@ -95,20 +95,12 @@ onMounted(() => {
 })
 
 const downloadCV = () => {
-    // console.log('Button clicked', e) 
-  // Replace with your actual CV file path
-  const cvUrl = '../assets/AnishOCV.pdf'
-  
-  // Create a temporary anchor element
   const link = document.createElement('a')
-  link.href = cvUrl
-  link.download = 'Anish-Kumar-CV.pdf' // The filename you want to save as
+  link.href = AnishCV
+  link.download = 'Anish-Kumar-CV.pdf'
   document.body.appendChild(link)
   link.click()
   document.body.removeChild(link)
-  
-  // Optional: Add download tracking or analytics here
-  console.log('CV downloaded')
 }
 
 </script>
