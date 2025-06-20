@@ -101,7 +101,7 @@
       ]
     },
     {
-      title: "Warehouse Management",
+      title: "ER Management",
       description: "A web-based ERP platform for managing purchase orders, sales, payments, reports, leads, and merchants. Designed for seamless navigation and consistent UI across modules, ensuring efficient warehouse and enterprise operations.",
    
 

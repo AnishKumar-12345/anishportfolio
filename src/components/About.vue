@@ -44,7 +44,7 @@
           
           <div class="text-content">
             <p class="text-body-1 mb-4 fade-in-delay-1">
-              Hello! I'm <span class="accent-text">Anish Kumar</span>, a passionate frontend developer specializing in Vue.js with a strong eye for UI/UX design.
+              Hello! I'm <span class="accent-text">Anish Kumar</span>, a passionate frontend developer specializing in Vue.js with a strong eye for frontend developement using Vue.js.
             </p>
             
             <p class="text-body-1 mb-4 fade-in-delay-2">
@@ -114,7 +114,7 @@
   const funFacts = ref([
     {
       question: "How did I get into programming?",
-      answer: "I started coding at 15 by modifying game scripts, which sparked my passion for development."
+      answer: "I started coding at 18 by modifying game scripts, which sparked my passion for development."
     },
     {
       question: "My development philosophy?",
@@ -126,7 +126,7 @@
     },
     {
       question: "When I'm not coding?",
-      answer: "You'll find me hiking, reading sci-fi, or experimenting with new recipes in the kitchen."
+      answer: "You'll find me playing cricket, watching sci-fi movies, or experimenting with new recipes in the kitchen."
     }
   ])
   </script>
