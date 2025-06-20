@@ -78,21 +78,22 @@
           size="large"
           class="see-more-btn"
           prepend-icon="mdi-github"
-          href="#"
+          href="https://github.com/AnishKumar-12345"
         >
           View More on GitHub
         </v-btn>
       </div>
     </v-container>
+    <!-- <img src="../assets/Theaterbites.png" alt=""> -->
   </template>
   
   <script setup>
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-featured online store with cart functionality, user authentication, and payment processing.",
-      tech: "Vue 3",
-      image: "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+      title: "Theater Bites",
+      description: "Theater Bites is a web app that lets theatergoers scan a QR code to browse menus, order food, and track delivery from their seats, enhancing the in-theater dining experience.",
+      tech: "Vue 3 + Vuetify 3",
+      image: "../assets/Theaterbites.png",
       placeholder: "https://via.placeholder.com/800x450/eeeeee/cccccc?text=Loading...",
       links: [
         { label: "Demo", url: "#", icon: "mdi-open-in-new" },
@@ -100,10 +101,14 @@
       ]
     },
     {
-      title: "Task Management App",
-      description: "Productivity application with drag-and-drop interface, team collaboration, and real-time updates.",
-      tech: "Vuetify",
-      image: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+      title: "Warehouse Management",
+      description: "A web-based ERP platform for managing purchase orders, sales, payments, reports, leads, and merchants. Designed for seamless navigation and consistent UI across modules, ensuring efficient warehouse and enterprise operations.",
+   
+
+      tech: "Vue 3 + Vuetify 3",
+      // image: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+      image: "../assets/Theaterbites.png",
+
       placeholder: "https://via.placeholder.com/800x450/eeeeee/cccccc?text=Loading...",
       links: [
         { label: "Demo", url: "#", icon: "mdi-open-in-new" },
@@ -111,10 +116,14 @@
       ]
     },
     {
-      title: "Weather Dashboard",
-      description: "Interactive weather application with 5-day forecasts, location search, and animated weather icons.",
-      tech: "Vue + API",
-      image: "https://images.unsplash.com/photo-1601134467661-3d775b999c8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+      title: "CPQ",
+      description: "Developed a pricing and quote automation tool for a Fire Protection Company, streamlining product setup, pricing, and quote generation. Improved sales efficiency and customer satisfaction through a modern CPQ solution.",
+	
+
+      tech: "Vue2 + Vuetify2",
+      // image: "https://images.unsplash.com/photo-1601134467661-3d775b999c8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+      image: "../assets/Theaterbites.png",
+
       placeholder: "https://via.placeholder.com/800x450/eeeeee/cccccc?text=Loading...",
       links: [
         { label: "Demo", url: "#", icon: "mdi-open-in-new" },
